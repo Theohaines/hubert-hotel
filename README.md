@@ -1,2 +1,3 @@
-# hubert-hotel
- hubert-hotel multiplayer game
+# Hubert Hotel
+
+Welcome to Hubert Hotel!
