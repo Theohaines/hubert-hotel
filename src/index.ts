@@ -5,7 +5,10 @@ dotenv.config();
 
 const app = express();
 
-app.use("/static", express.static("src/public"));
+app.use("/static",
+    express.static("src/public"),
+    express.static("dist/public")
+);
 
 app.get("/", async (req, res) => {
     res.sendFile(path.resolve("src/public/pages/game/index.html"));
