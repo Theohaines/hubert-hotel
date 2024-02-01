@@ -21,3 +21,8 @@ socket.on("move", (username: string, x: number, y: number) => {
     }
 });
 
+setInterval(() => {
+    if (pressedKeys.has("w")) {
+        
+    }
+}, 10);
